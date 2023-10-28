@@ -8,35 +8,35 @@ import { useEffect, useRef } from "react";
 
 export const projects = [
   {
-    title: "Wawatmos",
-    url: "https://r3f-wawatmos-final.vercel.app/",
-    image: "projects/wawatmos.jpg",
-    description: "Recreating the Atmos Awwwards website with React Three Fiber",
+    title: "Modern Weather App",
+    url: "https://modern-weather-fqvm2be9r-golu098.vercel.app/",
+    image: "dist/projects/Screenshot 2023-10-29 01.03.39.png",
+    description: "This app is used to display weather details with best user interface",
   },
   {
-    title: "Portfolio Baking",
-    url: "https://www.youtube.com/watch?v=YkHqpqJgLKw",
-    image: "projects/baking.jpg",
-    description: "Learn how to bake a 3D model with Blender and use it in r3f",
+    title: "Vidyarthi Khata ",
+url:"https://vidyarthi-khata.vercel.app/",
+    image: "dist/projects/Screenshot 2023-10-29 01.08.22.png",
+    description: "App which govern all the investment which you got from office or home",
   },
   {
-    title: "3D Avatar",
-    url: "https://www.youtube.com/watch?v=pGMKIyALcK0",
-    image: "projects/avatar.jpg",
-    description: "Learn how to use ReadyPlayerMe to create a 3D avatar",
+    title: "Study Notion",
+    url:"dist/projects/Screenshot 2023-10-29 01.22.11.png",
+    image: "dist/projects/Screenshot 2023-10-29 01.22.11.png",
+    description: "This is a LMS website which aims to provide free acess to all contents",
   },
-  {
-    title: "Kanagame",
-    url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
-    image: "projects/kanagame.jpg",
-    description: "Use React Three Fiber to create a 3D game",
-  },
-  {
-    title: "Loader",
-    url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
-    image: "projects/loader.jpg",
-    description: "Create a loading screen for your r3f projects",
-  },
+  // {
+  //   title: "Kanagame",
+  //   url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
+  //   image: "projects/kanagame.jpg",
+  //   description: "Use React Three Fiber to create a 3D game",
+  // },
+  // {
+  //   title: "Loader",
+  //   url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
+  //   image: "projects/loader.jpg",
+  //   description: "Create a loading screen for your r3f projects",
+  // },
 ];
 
 const Project = (props) => {
@@ -64,7 +64,7 @@ const Project = (props) => {
         <meshBasicMaterial color="black" transparent opacity={0.4} />
       </mesh>
       <Image
-        scale={[2, 1.2, 1]}
+        scale={[2, 2.2, 5]}
         url={project.image}
         toneMapped={false}
         position-y={0.3}

@@ -27,9 +27,10 @@ export const LoadingScreen = (props) => {
             width: `${progress}%`,
           }}
         >
-          Wawa Sensei
+          Shiv Kant
         </div>
-        <div className="opacity-40">Wawa Sensei</div>
+        <div className="opacity-40">           Shiv Kant
+</div>
       </div>
     </div>
   );
